@@ -1,39 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="PT-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado do WebService</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon.ico">
 </head>
 
 <body>
 
+    <div id="content">
+
+    </div>
+
 </body>
 
-<script>
-    // consumir a api do 192.168.1.53/TREINAMENTO/ESTADOS.API.php;
-    // vanilla js
+<script type="text/javascript">
 
-    const data = "";
-    // fetch("http://192.168.1.58/Treinamentos/TREINAMENTO.31.08.2022/estados.json", {
-    fetch("estados.json", {
-        method: "GET"
+    let table = document.createElement('table');
+    let thead = document.createElement('thead');
+    let tbody = document.createElement('tbody');
+    tbody.setAttribute('id', 'dados_table');
+
+    table.appendChild(thead);
+    table.appendChild(tbody);
+    document.getElementById('content').appendChild(table);
+
+    let row_1 = document.createElement('tr');
+    let heading_1 = document.createElement('th');
+    heading_1.innerHTML = "Nome do Estado";
+    let heading_2 = document.createElement('th');
+    heading_2.innerHTML = "UF";
+    let heading_3 = document.createElement('th');
+    heading_3.innerHTML = "DDD Principal";
+
+    row_1.appendChild(heading_1);
+    row_1.appendChild(heading_2);
+    row_1.appendChild(heading_3);
+    thead.appendChild(row_1);
+
+    const data = '';
+    fetch('estados.json', {
+        // fetch('http://192.168.1.53/treinamento_api/estados.api.php', {
+        method: 'GET'
     })
         .then((response) => response.json())
         .then((data) => {
-            let dadosJson = data;
-
-            // let resultado = JSON.stringify(data);
-            // let objeto = JSON.parse(resultado);
-            console.log(dadosJson);
+            let resultado = JSON.stringify(data);
+            // alert(resultado);
+            var tableNew = document.getElementById('dados_table');
+            data.forEach(function (data) {
+                var tr = document.createElement('tr');
+                tr.innerHTML =
+                    '<td>' + data.nome + '</td>' +
+                    '<td>' + data.uf + '</td>' +
+                    '<td>' + data.ddd + '</td>'
+                tableNew.appendChild(tr);
+            });
         })
         .catch((error) => {
-            console.error("Error:", error)
+            console.error('Error:', error)
         });
 
 </script>
