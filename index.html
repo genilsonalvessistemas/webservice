@@ -26,9 +26,11 @@
     })
         .then((response) => response.json())
         .then((data) => {
-            let resultado = JSON.stringify(data);
-            let objeto = JSON.parse(resultado);
-            console.log(resultado);
+            let dadosJson = data;
+
+            // let resultado = JSON.stringify(data);
+            // let objeto = JSON.parse(resultado);
+            console.log(dadosJson);
         })
         .catch((error) => {
             console.error("Error:", error)

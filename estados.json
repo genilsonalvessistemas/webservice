@@ -1,139 +1,137 @@
-﻿{
-	"dados_do_json": [
-		{
-			"nome": "Rondônia",
-			"uf": "RO",
-			"ddd": "69"
-		},
-		{
-			"nome": "Acre",
-			"uf": "AC",
-			"ddd": "68"
-		},
-		{
-			"nome": "Amazonas",
-			"uf": "AM",
-			"ddd": "97"
-		},
-		{
-			"nome": "Roraima",
-			"uf": "RR",
-			"ddd": "95"
-		},
-		{
-			"nome": "Pará",
-			"uf": "PA",
-			"ddd": "94"
-		},
-		{
-			"nome": "Amapá",
-			"uf": "AP",
-			"ddd": "96"
-		},
-		{
-			"nome": "Tocantins",
-			"uf": "TO",
-			"ddd": "63"
-		},
-		{
-			"nome": "Maranhão",
-			"uf": "MA",
-			"ddd": "99"
-		},
-		{
-			"nome": "Piauí",
-			"uf": "PI",
-			"ddd": "89"
-		},
-		{
-			"nome": "Ceará",
-			"uf": "CE",
-			"ddd": "88"
-		},
-		{
-			"nome": "Rio Grande do Norte",
-			"uf": "RN",
-			"ddd": "84"
-		},
-		{
-			"nome": "Paraíba",
-			"uf": "PB",
-			"ddd": "83"
-		},
-		{
-			"nome": "Pernambuco",
-			"uf": "PE",
-			"ddd": "87"
-		},
-		{
-			"nome": "Alagoas",
-			"uf": "AL",
-			"ddd": "82"
-		},
-		{
-			"nome": "Sergipe",
-			"uf": "SE",
-			"ddd": "79"
-		},
-		{
-			"nome": "Bahia",
-			"uf": "BA",
-			"ddd": "77"
-		},
-		{
-			"nome": "Minas Gerais",
-			"uf": "MG",
-			"ddd": "31"
-		},
-		{
-			"nome": "Espírito Santo",
-			"uf": "ES",
-			"ddd": "27"
-		},
-		{
-			"nome": "Rio de Janeiro",
-			"uf": "RJ",
-			"ddd": "21"
-		},
-		{
-			"nome": "São Paulo",
-			"uf": "SP",
-			"ddd": "11"
-		},
-		{
-			"nome": "Paraná",
-			"uf": "PR",
-			"ddd": "46"
-		},
-		{
-			"nome": "Santa Catarina",
-			"uf": "SC",
-			"ddd": "49"
-		},
-		{
-			"nome": "Rio Grande do Sul",
-			"uf": "RS",
-			"ddd": "55"
-		},
-		{
-			"nome": "Mato Grosso do Sul",
-			"uf": "MS",
-			"ddd": "67"
-		},
-		{
-			"nome": "Mato Grosso",
-			"uf": "MT",
-			"ddd": "65"
-		},
-		{
-			"nome": "Goiás",
-			"uf": "GO",
-			"ddd": "62"
-		},
-		{
-			"nome": "Distrito Federal",
-			"uf": "DF",
-			"ddd": "61"
-		}
-	]
-}
+﻿[
+	{
+		"nome": "Rondônia",
+		"uf": "RO",
+		"ddd": "69"
+	},
+	{
+		"nome": "Acre",
+		"uf": "AC",
+		"ddd": "68"
+	},
+	{
+		"nome": "Amazonas",
+		"uf": "AM",
+		"ddd": "97"
+	},
+	{
+		"nome": "Roraima",
+		"uf": "RR",
+		"ddd": "95"
+	},
+	{
+		"nome": "Pará",
+		"uf": "PA",
+		"ddd": "94"
+	},
+	{
+		"nome": "Amapá",
+		"uf": "AP",
+		"ddd": "96"
+	},
+	{
+		"nome": "Tocantins",
+		"uf": "TO",
+		"ddd": "63"
+	},
+	{
+		"nome": "Maranhão",
+		"uf": "MA",
+		"ddd": "99"
+	},
+	{
+		"nome": "Piauí",
+		"uf": "PI",
+		"ddd": "89"
+	},
+	{
+		"nome": "Ceará",
+		"uf": "CE",
+		"ddd": "88"
+	},
+	{
+		"nome": "Rio Grande do Norte",
+		"uf": "RN",
+		"ddd": "84"
+	},
+	{
+		"nome": "Paraíba",
+		"uf": "PB",
+		"ddd": "83"
+	},
+	{
+		"nome": "Pernambuco",
+		"uf": "PE",
+		"ddd": "87"
+	},
+	{
+		"nome": "Alagoas",
+		"uf": "AL",
+		"ddd": "82"
+	},
+	{
+		"nome": "Sergipe",
+		"uf": "SE",
+		"ddd": "79"
+	},
+	{
+		"nome": "Bahia",
+		"uf": "BA",
+		"ddd": "77"
+	},
+	{
+		"nome": "Minas Gerais",
+		"uf": "MG",
+		"ddd": "31"
+	},
+	{
+		"nome": "Espírito Santo",
+		"uf": "ES",
+		"ddd": "27"
+	},
+	{
+		"nome": "Rio de Janeiro",
+		"uf": "RJ",
+		"ddd": "21"
+	},
+	{
+		"nome": "São Paulo",
+		"uf": "SP",
+		"ddd": "11"
+	},
+	{
+		"nome": "Paraná",
+		"uf": "PR",
+		"ddd": "46"
+	},
+	{
+		"nome": "Santa Catarina",
+		"uf": "SC",
+		"ddd": "49"
+	},
+	{
+		"nome": "Rio Grande do Sul",
+		"uf": "RS",
+		"ddd": "55"
+	},
+	{
+		"nome": "Mato Grosso do Sul",
+		"uf": "MS",
+		"ddd": "67"
+	},
+	{
+		"nome": "Mato Grosso",
+		"uf": "MT",
+		"ddd": "65"
+	},
+	{
+		"nome": "Goiás",
+		"uf": "GO",
+		"ddd": "62"
+	},
+	{
+		"nome": "Distrito Federal",
+		"uf": "DF",
+		"ddd": "61"
+	}
+]
