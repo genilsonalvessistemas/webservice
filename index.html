@@ -6,20 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado do WebService</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon.ico">
 </head>
 
 <body>
-    <table>
 
-    </table>
 </body>
+
 <script>
     // consumir a api do 192.168.1.53/TREINAMENTO/ESTADOS.API.php;
     // vanilla js
-    //
-
-    var elementoPrincipal = document.body;
-    let elementoResultado = document.createElement('table')
 
     const data = "";
     // fetch("http://192.168.1.58/Treinamentos/TREINAMENTO.31.08.2022/estados.json", {
@@ -28,12 +26,12 @@
     })
         .then((response) => response.json())
         .then((data) => {
-            var resultado = JSON.stringify(data);
-            const text = document.createElement(resultado);
-            console.log(text);
+            let resultado = JSON.stringify(data);
+            let objeto = JSON.parse(resultado);
+            console.log(resultado);
         })
         .catch((error) => {
-            console.error("Error:", error);
+            console.error("Error:", error)
         });
 
 </script>
